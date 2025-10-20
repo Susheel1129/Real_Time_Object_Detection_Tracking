@@ -1,0 +1,5 @@
+train: C:/Users/ksush/Downloads/Summer_intern/Real_time_object_detection_tracking/data/images/training
+val: C:/Users/ksush/Downloads/Summer_intern/Real_time_object_detection_tracking/data/images/val
+
+nc: 4
+names: ['person', 'bottle', 'cell phone', 'spoon']  # only classes you actually have in your dataset
