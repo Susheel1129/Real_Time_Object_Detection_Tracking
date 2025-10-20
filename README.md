@@ -1,7 +1,7 @@
 # Real-Time Object Detection & Tracking
 
 This project implements a **real-time object detection and tracking system** using **YOLOv8**.  
-The model is fine-tuned on a custom dataset with four classes — *person, bottle, cell phone,* and *spoon* — achieving **over 75% detection accuracy** on the validation set.
+The model is fine-tuned on a custom dataset with four classes — *person, bottle, cell phone, spoon, clocks etc.* — achieving **over 75% detection accuracy** on the validation set.
 
 ---
 
@@ -19,17 +19,6 @@ It leverages **Ultralytics YOLOv8** for detection and **OpenCV** for visualizati
 -  Modular code design for easy customization and experimentation  
 
 ---
-
-##  Directory Structure
-
-Real_Time_Object_Detection_Tracking/
-├── data/                  # Dataset (training/validation images)
-├── models/                # YOLOv8 weights (best.pt)
-├── src/                   # Source code modules (detector, stream, tracking)
-├── runs/                  # YOLOv8 training runs and results
-├── notebooks/             # Jupyter notebooks for training/inference
-├── outputs/               # Inference results and visualizations
-└── README.md              # Project overview and documentation
 
 
 ##  Model Details
