@@ -20,19 +20,24 @@ It leverages **Ultralytics YOLOv8** for detection and **OpenCV** for visualizati
 
 ---
 
-## Directory Structure
+##  Directory Structure
+
 Real_Time_Object_Detection_Tracking/
-│
-├── data/ # Dataset (training/validation images)
-├── models/ # YOLOv8 weights (best.pt)
-├── src/ # Source code modules (detector, stream, tracking)
-├── runs/ # YOLOv8 training runs and results
-├── notebooks/ # Jupyter notebooks for training/inference
-├── outputs/ # Inference results and visualizations
-└── README.md # Project overview and documentation
+├── data/                  # Dataset (training/validation images)
+├── models/                # YOLOv8 weights (best.pt)
+├── src/                   # Source code modules (detector, stream, tracking)
+├── runs/                  # YOLOv8 training runs and results
+├── notebooks/             # Jupyter notebooks for training/inference
+├── outputs/               # Inference results and visualizations
+└── README.md              # Project overview and documentation
+
 
 ##  Model Details
 - **Framework:** Ultralytics YOLOv8  
 - **Training Epochs:** 50  
 - **Accuracy:** >75% mAP on validation set  
-- **Classes:** Person, Bottle, Cell Phone, Spoon  
+- **Classes:** Person, Bottle, Cell Phone, Spoon
+  <img width="783" height="636" alt="Screenshot 2025-10-20 181710" src="https://github.com/user-attachments/assets/586e5ec9-9ef2-4952-8947-90c2c27801d8" />
+  <img width="860" height="642" alt="Screenshot 2025-10-20 193412" src="https://github.com/user-attachments/assets/f9977c0e-f741-418a-ad25-70994e7e76a0" />
+
+
